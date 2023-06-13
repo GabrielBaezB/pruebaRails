@@ -1,2 +1,37 @@
-<h1>Pages#projects</h1>
-<p>Find me in app/views/pages/projects.html.erb</p>
+<div class="container mt-5">
+  <div class="card-group m-2">
+    <div class="card m-2">
+      <%= image_tag('imagen1.png', class: 'card-img-top', alt: 'Proyecto 1') %>
+      <div class="card-body">
+        <h5 class="card-title">Proyecto 1</h5>
+        <p class="card-text">Viajes Chile, este proyecto está enfocado en el territorio chileno de norte a sur para viajes planificados por el país.</p>
+        </div>
+        <div class="card-footer">
+        <%= link_to 'Ver más', '#', class: 'btn btn-primary custom-button' %>
+        </div>
+    </div>
+    <div class="card m-2">
+      <%= image_tag('imagen2.png', class: 'card-img-top', alt: 'Proyecto 2') %>
+      <div class="card-body">
+        <h5 class="card-title">Proyecto 2</h5>
+        <p class="card-text">Ricomida, este proyecto se creó para agilizar la compra de pizzas por web y enviar a domicilio, también para ver la carta en el local.</p>
+      </div>
+      <div class="card-footer">
+      <%= link_to 'Ver más', '#', class: 'btn btn-primary custom-button' %>
+      </div>
+    </div>
+    <div class="card m-2">
+      <%= image_tag('imagen3.png', class: 'card-img-top', alt: 'Proyecto 3') %>
+      <div class="card-body">
+        <h5 class="card-title">Proyecto 3</h5>
+        <p class="card-text">La Iguana, este proyecto habla de la iguana y sus características</p>
+      </div>
+      <div class="card-footer">
+      <%= link_to 'Ver más', '#', class: 'btn btn-primary custom-button' %>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
